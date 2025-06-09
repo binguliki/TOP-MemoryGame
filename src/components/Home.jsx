@@ -56,7 +56,7 @@ export default function Home() {
         setScore(prev => prev + 1);
     }
     return (
-        <div className="h-screen bg-[url(src/assets/background.png)] bg-repeat bg-cover">
+        <div className="h-screen bg-[url(assets/background.png)] bg-repeat bg-cover">
             <ScoreBoard score={score} bestScore={bestScore}></ScoreBoard>
             <Game data={data} resetGame={resetGame} increaseScore={increaseScore}></Game>
         </div>
